@@ -92,7 +92,7 @@ header .nav-link-custom:hover::after {
 
 .bg-img {
   position: absolute;
-  background-image: url(/assest/easybank-landing-page-master/images/bg-intro-desktop.svg);
+  background-image: url(../assest/easybank-landing-page-master/images/bg-intro-desktop.svg);
   width: 50%;
   height: 100%;
   top: 50%;
@@ -127,7 +127,7 @@ header .nav-link-custom:hover::after {
 @media screen and (max-width: 424px) {
   .bg-img {
     position: relative;
-    background-image: url(/assest/easybank-landing-page-master/images/bg-intro-mobile.svg);
+    background-image: url(../assest/easybank-landing-page-master/images/bg-intro-mobile.svg);
     background-position: unset;
     -webkit-transform: unset;
             transform: unset;
@@ -150,7 +150,7 @@ header .nav-link-custom:hover::after {
 .bg-img::after {
   content: "";
   display: block;
-  background-image: url(/assest/easybank-landing-page-master/images/image-mockups.png);
+  background-image: url(../assest/easybank-landing-page-master/images/image-mockups.png);
   width: 80%;
   margin: 0 0 0 auto;
   height: calc(100% + 160px);

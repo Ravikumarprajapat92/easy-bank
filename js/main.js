@@ -14,7 +14,7 @@ login = (e) => {
     let errorTxt = document.getElementsByClassName("error-msg");
 
     if (!!fName && !!lName && !!eMail && !!pass) {
-        location.replace("/dashboard.html")
+        location.replace("./dashboard.html")
     } else {
         for (var i = 0; i < formGroup.length; i++) {
             formGroup[i].classList.add("error");

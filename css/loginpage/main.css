@@ -1,10 +1,10 @@
 @font-face {
   font-family: poppins-;
-  src: url(/assest/intro-component-with-signup-form-master/poppins/Poppins-Regular.ttf);
+  src: url(../../assest/intro-component-with-signup-form-master/poppins/Poppins-Regular.ttf);
 }
 
 body {
-  background-image: url(/assest/intro-component-with-signup-form-master/images/bg-intro-desktop.png);
+  background-image: url(../../assest/intro-component-with-signup-form-master/images/bg-intro-desktop.png);
   background-color: #ff7a7a;
   height: 100vh;
   font-family: poppins;
