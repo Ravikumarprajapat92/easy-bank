@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="/css/loginpage/main.css">
+</head>
+
+<body>
+    <section>
+        <div class="container">
+            <div class="row align-items-center" style="height: 100vh;">
+                <div class="col-md-6 intro-txt">
+                    <h1>Learn to code by watching others</h1>
+                    <p>See how experienced developers solve problems in real-time.
+                        watching scripted tutorials is great, but understanding how
+                        developers think is invaluable.
+                    </p>
+                </div>
+                <div class="col-md-6 form-container">
+                    <div class="offer-card">
+                        <p class="mb-0"><b>Try it free 7 days </b>then $20/mo. thereafter</>
+                    </div>
+                    <div class="form-card">
+                        <form onsubmit="login(event)">
+                            <div class="form-group">
+                                <label class="lablename" for="firstname">First Name</label>
+                                <input id="fname" class=" custom-input" type="text" onfocus="handleOnFocus(event)" onblur="handleOnBlur(event)">
+                                <p class="error-msg"></p>
+                                <img class="error-img" src="/assest/intro-component-with-signup-form-master/images/icon-error.svg" alt="">
+                                
+                            </div>
+
+                            <div class="form-group">
+                                <label class="lablename" for="lastname">Last Name</label>
+                                <input id="lname" class="custom-input" type="text" onfocus="handleOnFocus(event)" onblur="handleOnBlur(event)">
+                                <p class="error-msg"></p>
+                                <img class="error-img" src="/assest/intro-component-with-signup-form-master/images/icon-error.svg" alt="">                                
+                            </div>
+
+                            <div class="form-group">
+                                <label class="lablename" for="email">Email</label>
+                                <input id="email" class="custom-input" type="email" onfocus="handleOnFocus(event)" onblur="handleOnBlur(event)">
+                                <p class="error-msg"></p>
+                                <img class="error-img" src="/assest/intro-component-with-signup-form-master/images/icon-error.svg" alt="">
+                            </div>
+
+                            <div class="form-group">
+                                <label class="lablename" for="password">Password</label>
+                                <input id="pass" class="custom-input" type="password" onfocus="handleOnFocus(event)" onblur="handleOnBlur(event)">
+                                <p class="error-msg"></p>
+                                <img class="error-img" src="/assest/intro-component-with-signup-form-master/images/icon-error.svg" alt="">
+                            </div>
+
+                            <button class="custom-input custom-btn" type="submit">CLAIM YOUR FREE TRIAL</button>
+                            <p class="tc-txt">By clicking the button. You are agreeing to our
+                                <span>Terms and Services</span></p>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="/js/main.js"></script>
+</body>
+
+</html>

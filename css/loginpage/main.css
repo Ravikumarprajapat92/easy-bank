@@ -1,0 +1,138 @@
+@font-face {
+  font-family: poppins-;
+  src: url(/assest/intro-component-with-signup-form-master/poppins/Poppins-Regular.ttf);
+}
+
+body {
+  background-image: url(/assest/intro-component-with-signup-form-master/images/bg-intro-desktop.png);
+  background-color: #ff7a7a;
+  height: 100vh;
+  font-family: poppins;
+}
+
+section .intro-txt {
+  color: white;
+  font-size: larger;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+section .intro-txt h1 {
+  font-size: 3.2rem;
+  font-weight: bolder;
+  margin-bottom: 50px;
+}
+
+section .form-container .offer-card {
+  text-align: center;
+  background-color: #6055a5;
+  padding: 20px 0px;
+  border-radius: 10px;
+  margin-bottom: 30px;
+  -webkit-box-shadow: 0px 6px rgba(0, 0, 0, 0.3);
+          box-shadow: 0px 6px rgba(0, 0, 0, 0.3);
+  color: white;
+}
+
+section .form-container .form-card {
+  background-color: white;
+  padding: 40px;
+  border-radius: 10px;
+}
+
+section .form-container .form-card .form-group {
+  position: relative;
+  margin-bottom: 25px;
+}
+
+section .form-container .form-card .form-group .lablename {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  -webkit-transform: translate(25px, -50%);
+          transform: translate(25px, -50%);
+  font-weight: bold;
+  color: rgba(0, 0, 0, 0.5);
+  -webkit-transition: 300ms linear;
+  transition: 300ms linear;
+  pointer-events: none;
+}
+
+section .form-container .form-card .form-group .custom-input {
+  width: 100%;
+  padding: 10px 55px 10px 20px;
+  background-color: transparent;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  border-radius: 8px;
+  font-weight: bolder;
+  outline: none;
+}
+
+section .form-container .form-card .form-group .error-img {
+  display: none;
+}
+
+section .form-container .form-card .form-group .error-msg {
+  margin: 0;
+  text-align: right;
+  font-size: 13px;
+  color: #ff7a7a;
+  position: absolute;
+  right: 0;
+}
+
+section .form-container .form-card .form-group.active .lablename {
+  position: absolute;
+  top: calc(0% - 10px);
+  left: calc(0% - 20px);
+  -webkit-transform: translate(25px, -50%);
+          transform: translate(25px, -50%);
+  font-weight: bold;
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 13px;
+  pointer-events: none;
+}
+
+section .form-container .form-card .form-group.error .custom-input {
+  width: 100%;
+  padding: 10px 55px 10px 20px;
+  background-color: transparent;
+  border: 1px solid #ff7a7a;
+  border-radius: 8px;
+  font-weight: bolder;
+  outline: none;
+}
+
+section .form-container .form-card .form-group.error .error-img {
+  position: absolute;
+  top: 50%;
+  right: calc(0% + 20px);
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  display: inline;
+}
+
+section .form-container .form-card .custom-btn {
+  background-color: #38cc8c;
+  color: white;
+  -webkit-box-shadow: 0px 5px #2fb67c;
+          box-shadow: 0px 5px #2fb67c;
+  border: none;
+  width: 100%;
+  padding: 20px 40px;
+  border-radius: 8px;
+  outline: none;
+}
+
+section .form-container .form-card .tc-txt {
+  font-size: 12px;
+  text-align: center;
+  color: rgba(0, 0, 0, 0.3);
+  margin-bottom: 0;
+  margin-top: 20px;
+}
+
+section .form-container .form-card .tc-txt span {
+  color: #ff7a7a;
+}
+/*# sourceMappingURL=main.css.map */
